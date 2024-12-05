@@ -29,5 +29,243 @@
         I don't really work on it that much more nowadays, but I remembered it for this assignment and thought I'd take a 
         look at it, see how its changed, and then show other people what it looks like.
     </p>
+    <p>Now, apologies for the inelegant solution to this problem, but it appears that github only allows for one page at a time.</p>
+
+    <h1>Heuristic Evaluation</h1>
+    <h3>Problem 1: Lunch menu is sideways.</h3>
+    <p>Description: When loading up the lunch menu, a pdf is displayed vertically, with the information going horizontally. This makes it unreadable unless one can rotate the pdf.</p>
+    <p>Location: Under lunch menu tab (findable on home page).<p>
+    <p>Heuristic Violated: Consistency and Standards/Recogniton Rather than Recall</p>
+    <p>Severity: 3 (Serious) </p><br>
+    
+    <h3>Problem 2: Spirit week not listed on school calendar.</h3>
+    <p>Description: Spirit week is only found under Stuco, which is out of the way and vague.</p>
+    <p>Location: School calendar<p>
+    <p>Heuristic Violated: Consistency and Standards</p>
+    <p>Severity: 2 (Minor)</p><br>
+
+    <h3>Problem 3: Home page and main page are separate pages. </h3>
+    <p>Description: This may cause confusion from those who see this as the same page.</p>   
+    <p>Location: Home page<p>
+    <p>Heuristic Violated: Visability of System Status</p>
+    <p>Severity: 1 (Cosmetic)</p><br>
+
+    <h3>Problem 4: Search Bar rarely finds anything</h3>
+    <p>Description: Searching for something in the top right, such as "Spirit Week" often returns zero results.</p>
+    <p>Location: Home page<p>
+    <p>Heuristic Violated: Flexibility and Efficency of Use</p>
+    <p>Severity: 4 (Critical)</p><br>
+
+    <h3>Problem 5: Quicklinks section is too long and out of date</h3>
+    <p>Description: Quicklinks link to documents from 2022 that need to be updated. There is also 23 different quicklinks in one box. Some of which can be removed due to redundancy.</p>
+    <p>Location: Home page<p>
+    <p>Heuristic Violated: Aesthetic and Minimalist design</p>
+    <p>Severity: 2 (minor)</p><br>
+
+    <h1>Personas</h1>
+    <h3>Persona 1: </h3>
+    <p> Name: Kathrine<br>
+        <img src="../images/Katherine Stock Photo.jpg" style="height: 100px "><br>
+        Demographic information: African Female, 36 years old <br>
+        Job title: Small town accountant <br>
+        Goals: Katherine is a humble mother who doesn't need something flashy, but would appreciate a good user experience <br>
+        She would like to keep up with the local events of the school so she can be there for her daughter's games.<br>
+        Environment: Medium rural house in the small town of Sharon Springs. <br>
+        3 people: her, her husband, and her daughter claire<br>
+        Relatively Calm with minimal interuptions.<br>
+        Technical expertise: Really good with spreadsheets and can make her way
+        around, but not incredibly vested. Minimal phone usage <br>
+        Quote: "You got this sweetie!"<br>
+    </p>
+
+    <h3>Persona 2: </h3>
+    <p> Name: Holmes <br>
+        <img src="../images/Holmes Stock Photo.jpg" style="height: 100px "><br>
+        Demographic information: White Male, 25 years old <br>
+        Job title: IT specialist <br>
+        Goals: Holmes and his fiance want to leave the big city and move to a more peaceful rural town. <br> 
+        He is double checking to see if the local schools are right for his family<br>
+        Environment: Big, noisy city apartment <br>
+        "2" people, but people can tend to walk by and interupt. Many interuptions.<br>
+        Technical expertise: incredibly well versed in technology (Phone and Computer). Can work remotely and is capable to running remote sessions and checking the console for errors. <br>
+        Quote: "Mhm, yes, this will do quite nicely."<br>
+    </p>
+    <h1>Scenarios</h1>
+    <h3>Katherine Goal:</h3>
+    <p>
+        Kathrine is a 36 year old mother of one middle school girl. She lives in the rather small town of Sharon Springs (Population 1200). <br><br>
+        
+        She typically works as an accountant at the local accounting firm from 8 to 5, and she does most of the afternoon cooking around the house as well (Claire eats the school breakfasts and lunchs for mornings).
+        This leads her to having some free time in the day, but time that can easily be taken away by helping with homework or calls from friends.
+        She has an average technology expertise, but won't go too out of her way to find what she's looking for.<br><br>
+
+        She tries to keep up to date on all of the events that her daughter is going to, 
+        but work can get in the way somedays and it can be helpful for her to have access to the website with information on dates and times of events.
+        Her daughter has a basketball game this week, and she wants to find the date and time
+        for her daughter's game so that she can take time off of work to watch her daughter play. 
+        She also doesn't want to make the same food that Claire eats in the morning, 
+        so she'll want to double check the lunch menu as well.<br>
+    </p>
+    <p>Tasks 2-4 (Finding dates for events/items on lunch menu)</p>
+    <h3>Holmes Goal:</h3>
+    <p>
+        Holmes is a 25 year old IT specialist that has been working in the big city for a couple of years.
+        After many sleepless nights from the busy noises of the city, he and his fiance had decided to try to move to a smaller town.<br><br>
+        
+        He's able to work remotely, so location isn't too much of a concern, and he is currently considering a few different towns that may be right for them.<br><br>
+
+        Holmes is double checking through school websites to see what the school is like in Sharon Springs.
+        He wants his future kids to feel included and stable in this new possible environment.<br>
+    </p>
+    <p>Tasks 1 and 5 (First impressions/consistency and quality)</p>
+    <h2>Test Plan</h2>
+<p>
+    Goals:<br>
+    Efficient => User can find events or documents in little to no time<br>
+    Effective => User should be able to find this information<br>
+    Engaging => School promotes events and necessary documents<br>
+    Error Tolerant => The user should be able to trace their place in the website<br>
+    Easy to Learn => User should be able to navigate the website, even with little computer experience <br>
+</p>
+<p>
+    Scope:<br>
+    3 participants. 30 minute sessions (Zoom max 40 minute meeting)<br>
+</p>
+<p>
+    Tasks:<br>
+    Task 1: Go ahead and go to the website “usd241.org”. What are your first impressions of the front page of the website? Does anything come to mind right away?
+    <br>
+    Task 2: Now let’s do some investigating. Where and what time is the scholar’s bowl meet  on November 25th?
+    <br>
+    Task 3: What are some of the items on the lunch menu for November 26th
+    <br>
+    Task 4: Which week is spirit week? (Don’t spend too much time looking for it. Probably no longer than 5 minutes. If you don’t find it, just put that)
+    <br>
+    Task 5: How is the consistency on the website? Is it easy finding your footing or do you get lost?
+</p>
+<p>
+    Pre test Questionaire:<br>
+    What's your name?<br>
+    Are you okay with this being recorded?<br>
+    How much time do you spend on the internet?<br>
+    Do you have younger siblings going into sports<br>
+    Have you ever been to the Sharon Springs high school?<br>
+</p>
+<h2>Moderator Script</h2>
+<p>
+    Hello! Thank you for joining this usability study. How are you doing today? <br><br>
+
+    Great! Lets see here, I'd offer you refreshments, but this is online, so I can’t quite do that … <br><br>
+    
+    Before we begin the test, I'm going to ask you some questions. <br><br>
+    First off, could I get your name? <br><br>
+    
+    Next, would it be okay if this is recorded? <br><br>
+    
+    Roughly how much time do you spend on the internet?<br><br>
+    Excellent. Just a few more questions now. Did you do sports in high school?<br><br>
+    Do you younger siblings going into sports?<br><br>
+
+    Finally, have you ever been to the Sharon Springs high school?<br><br>
+    
+    Thank you! I’ve prepared five tasks for you to help guide you. <br><br>
+    
+    Task 1: Go ahead and go to the website “usd241.org”. What are your first impressions of the front page of the website? Does anything come to mind right away?<br><br>
+    
+    Task 2: Now let’s do some investigating for some information. Say you were looking to go to  an upcoming Christmas concert. Where and what time would that be?<br><br>
+    
+    Task 3: What are some of the items on the lunch menu for December 5th?<br><br>
+    
+    Task 4: Which week is spirit week? (This one’s a little bit rough, so don’t spend too much time looking for it. Probably no longer than 5 minutes. If you don’t find it, just put that)<br><br>
+    
+    Task 5: How is the consistency on the website? Is it easy finding your footing or do you get lost? <br><br>
+    
+    Additional Notes:<br><br>
+    
+    Thank you for  participating in this Usability Study! Hope you have a good day!<br><br>
+    
+</p>
+<h1>Tests</h1>
+    <h4>Matthew Herrick</h4>
+    <p>Pretty experienced with technology/internet (12 hours). Had not participated in sports or been to Sharon Springs High School.</p>
+    <p>Also, apologies, I was figuring out the zoom meeting settings, so not much happens until (5:09) </p>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/j6RRT108UIw">
+    </iframe> 
+    <h4>Alicia Feyerherm</h4>
+    <p>Least online time (3-4 hours)</p>
+    <p>Notably, was president of the student council for her high school. Also has siblings in extra curricular activities.</p>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/-vDPLGc_1xs ">
+    </iframe> 
+    <h4>Illay Dvoretz</h4>
+    <p>About six hours internet time. Did sports in high school and has siblings in sports. </p>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/4fw2kWxu3DA ">
+    </iframe> 
+    <h1>Results</h1>
+    <h4>Matthew</h4>
+    <p>(7:57)Struck by blue color scheme. First impressions say "it's a perfectly servicible website". Mentioned it was missing some bells and whistles.</p>
+    <p>(10:25)Was able to find the calendar and lunch menu quickly, but was surprised by the rotated lunch menu and felt not everyone would find that.</p>
+    <p>(11:15-21:15)Matthew spent a sizeable amount of time looking for spirit week, but it's so out of the way that he was unable to find it without a couple nudges. Quicklinks was hidden.</p>
+    <p>(17:54)Pretty barebones, which makes it easy to find ones way around. </p>
+    <p>(18:50)Noted varying picture quality/ picture repetition. </p>
+
+    <h4>Alicia</h4>
+    <p>(3:53) Nav should be centered. Pictures again. </p>
+    <p>(5:53) Mentioned wanting a search bar. Provided on not distincive enough. </p>
+    <p>(6:30)Lunch Menu rotation again. </p>
+    <p>(8:10)Main page confusion and picture too big.</p>
+    <p>(11:52) Inconsistent quicklink size/quicklink issues.</p>
+    <p>(14:40) Daily announcements downloaded to the computer.</p>
+    <p>(16:20) Archive issues: Search feature overcomplicated, and months are arranged very strangely.</p>
+    <p>(17:10) links take user to top of page every time.</p> 
+    <p>(18:25) Search troubles, error message not near search bar.</p> 
+    <p>(19:45) Redundant filter in directory. organized by title. Pictures redundant.</p>
+    <p>(21:20) Nothing on contact us.</p> 
+    <p>(21:40) Dates associated with resources and download issue again.</p>
+    <p>(22:40) More out of date articles.</p>
+    <p>(22:55) Lack of information on counselor page/redundancy/badly designed counselor page.</p>
+
+    <h4>Illay</h4>
+    <p>(5:20) Initial impression is the website is streamlined. Nav looks good.</p>
+    <p>(7:50) Issues with the links taking to the top again. Additionally, Illay suggested for a confirm option for changing the date. </p>
+    <p>(10:15) Lunch menu issues once more. (11:52) suggested option to choose month of lunch menu.</p>
+    <p>(14:40) Start to spirit week.</p>
+    <p>(15:22) Changed category. maybe not obvious all are presented as default.</p>
+    <p>(19:14) looked in weekly bulletin.</p>
+    <p>(20:20) Illay gives up on finding spirit week. </p>
+    <p>Consistency good, but (24:20) in depth sections are kind of lacking and overly complicated.</p>
+    <p>(27:45) Adding a little bit of differences between tabs could help the website.</p>
+    <p>(30:20) Might be cluttered for phone usage.</p>
+    <p>(31:55) No autocorrect/couldn't find spirit week in search bar.</p>
+
+    <h4>Other Notes:</h4>
+    <p>Multiple options for users on the calendar proved rather useful.</p>
+    <p>One incredibly difficult part for the users was the spirit week location. Alicia, who was a part of the student council at her school, quickly found it under the Stuco quicklink.<br>
+    Unfortunately, the other two users struggled to find spirit week's location, one giving up at the calendar.</p>
+    <p>The poor picture quality stood out to the users and the size tended to make them more annoyed.</p>
+    <h1>Recommendations</h1>
+    <ul>
+    <li>Updates: The designers should probably keep the website up to date. There are several places mentioning documents pertaining to 2022, etc. that take up space without being needed.</li>
+    <li>Main Picture Banner: The picture banner seems to distract on nearly every page. It goes entirely through to the fold, blocking information.</li>
+    <li>Picture quality: Additionally some of the photos were really blurry and took away from the experience.</li>
+    <li>Link reset: The designers could also find a way to make it so that clicking on a new page doesn't send the user to the top, requiring them to scroll down. </li>
+    <li>Lunch Menu: The lunch menu could stand to be either incorporated like the normal calendar, or at the very least, rotated so that it can be read without adjustment.</li>
+    <li>Search Bar: The search bar could do a lot more in helping people find information around the website.</li>
+    </ul>
+    <h1>Self Reflection</h1>
+    <p>I was slightly confused in the beginning of the assignment, as the website turn-in link was hidden under the testing folder. I saw the participation assignment being front and center but missed the website turn-in for a bit.</p>
+
+    <p>I think I started getting a little burnt out near the end.</p>
+
+    <p>One thing I found was that it was kind of stressful for me when I was the overseer rather than then the participant, but ...</p>
+
+    <p>I definitely seemed a lot more comfortable starting the second session though.</p>
+
+    <p>Lastly, I would have like a recommendation or a link to the hosting server we could use so that we don't have to fiddle around with ones that might not work.</p>
+    <br>
+    <p>Thanks for taking a look at my report! Hope you have a great winter break!</p>
+    <p>-Drayton</p>
 </body>
 </html>
